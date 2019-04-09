@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_background"
+        android:orientation="vertical"
+        tools:context="com.example.stateandcapital.MainActivity">
+
+        <TextView
+            android:id="@+id/states"
+            style="@style/StateStyle"
+            android:background="@color/states_of_india"
+            android:text="States Of India"/>
+        <TextView
+            android:id="@+id/unionteroteries"
+            style="@style/StateStyle"
+            android:background="@color/union_terroteries_of_india"
+            android:text="Union Territories Of India"/>
+        <TextView
+            android:id="@+id/facts"
+            style="@style/StateStyle"
+            android:background="@color/facts_of_india"
+            android:text="Interesting Facts Of India"/>
+        <TextView
+            android:id="@+id/primeMinister"
+            style="@style/StateStyle"
+            android:background="@color/pm_of_india"
+            android:text="Prime Ministers Of India"/>
+
+        <TextView
+            android:id="@+id/presidentOfIndia"
+            style="@style/StateStyle"
+            android:background="@color/president_of_india"
+            android:text="Presidents Of India"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

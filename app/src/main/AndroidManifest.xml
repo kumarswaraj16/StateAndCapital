@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stateandcapital">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_puducherry"
+            android:label="Puducherry">
+
+        </activity>
+        <activity android:name=".lakshadweep"
+            android:label="Lakshadweep"/>
+        <activity android:name=".activity_delhi"
+            android:label=""/>
+        <activity android:name=".activity_dad" />
+        <activity android:name=".activity_danh" />
+        <activity android:name=".activity_chandigarh" />
+        <activity android:name=".activity_aani" />
+        <activity android:name=".activity_wb" />
+        <activity android:name=".activity_uk" />
+        <activity android:name=".activity_up" />
+        <activity android:name=".activity_tripura" />
+        <activity android:name=".activity_telangana" />
+        <activity android:name=".activity_tn" />
+        <activity android:name=".activity_sikkim" />
+        <activity android:name=".activity_rajasthan" />
+        <activity android:name=".activity_punjab" />
+        <activity android:name=".activity_odisha" />
+        <activity android:name=".activity_nagaland" />
+        <activity android:name=".activity_mizoram" />
+        <activity android:name=".activity_meghalaya" />
+        <activity android:name=".activity_manipur" />
+        <activity android:name=".activity_maharashtra" />
+        <activity android:name=".activity_mp" />
+        <activity android:name=".activity_kerala" />
+        <activity android:name=".activity_karnataka" />
+        <activity android:name=".activity_jharkhand" />
+        <activity android:name=".activity_jk" />
+        <activity android:name=".activity_himachal" />
+        <activity android:name=".activity_haryana" />
+        <activity android:name=".activity_gujarat" />
+        <activity android:name=".activity_goa" />
+        <activity android:name=".activity_chhattisgarh" />
+        <activity android:name=".activity_bihar" />
+        <activity android:name=".activity_assam" />
+        <activity android:name=".activity_arunachal" />
+        <activity android:name=".activity_andhra" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity_president"
+            android:label="Presidents Of India" />
+        <activity
+            android:name=".activity_pm"
+            android:label="Prime Ministers Of India" />
+        <activity
+            android:name=".activity_facts"
+            android:label="Facts Of India" />
+        <activity
+            android:name=".activity_union"
+            android:label="Union Territories Of India" />
+        <activity
+            android:name=".activity_states"
+            android:label="States Of India" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

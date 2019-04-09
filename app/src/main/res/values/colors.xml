@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Primary_color">#4A312A</color>
+    <color name="Primary_Dark_color">#2F1D1A</color>
+    <color name="main_background">#FFF7DA</color>
+    <color name="states_of_india">#FD8E09</color>
+    <color name="union_terroteries_of_india">#379237</color>
+    <color name="facts_of_india">#8800A0</color>
+    <color name="pm_of_india">#16AFCA</color>
+    <color name="president_of_india">#a4c639</color>
+    <color name="statesactivity">#FF4500</color>
+    <color name="unionactivity">#ADFF2F</color>
+    <color name="factsactivity">#EE82EE</color>
+    <color name="pmactivity">#AFEEEE</color>
+    <color name="presidentactivity">#008080</color>
+
+</resources>
